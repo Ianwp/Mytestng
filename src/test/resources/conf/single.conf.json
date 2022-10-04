@@ -1,0 +1,24 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "jakepence1",
+  "key": "qaEHZqKgyNSnRkLQQpsq",
+
+  "capabilities": {
+    "build": "browserstack-Percy",
+    "name": "single_test",
+    "browserstack.debug": true,
+    "acceptSslCerts": false,
+    "consoleLogs": "verbose",
+    "browserstack.networkLogs": true,
+    "browserstack.local": false
+  },
+
+  "environments": {
+    "chrome": {
+      "osVersion": "10",
+      "device": "Samsung Galaxy S20",
+      "realMobile": "true",
+      "deviceOrientation": "landscape"
+    }
+  }
+}

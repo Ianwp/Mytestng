@@ -1,0 +1,23 @@
+{
+    "server": "hub-cloud.browserstack.com",
+    "user": "jakepence1",
+    "key": "qaEHZqKgyNSnRkLQQpsq",
+  
+    "capabilities": {
+      "build": "browserstack-axe",
+      "name": "single_test",
+      "browserstack.debug": true
+      
+    },
+  
+    "environments": {
+      "chrome": {
+        "browser": "chrome",
+        "version": "latest",
+        "os": "Windows",
+        "os_version": "10"
+  
+      }
+    }
+  }
+  

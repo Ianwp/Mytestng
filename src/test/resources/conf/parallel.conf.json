@@ -1,0 +1,82 @@
+{
+  "server": "hub-apse.browserstack.com",
+  "user": "jakepence1",
+  "key": "qaEHZqKgyNSnRkLQQpsq",
+
+  "capabilities": {
+    "build": "Test - Parallel",
+    "name": "parallel_test",
+    "browserstack.debug": true,
+    "browserstack.networkLogs": true
+  },
+
+  "environments": {
+    "env1": {
+      "os": "Windows",
+      "os_version": "11",
+      "browser": "chrome",
+      "browser_version": "latest"
+    },
+    "env2": {
+      "os": "Windows",
+      "os_version": "11",
+      "browser": "edge",
+      "browser_version": "latest"
+
+    },
+    "env3": {
+      "device": "iPhone 13",
+      "os_version": "15",
+      "deviceOrientation": "landscape",
+      "real_mobile": "true"
+    },
+    "env4": {
+      "device": "Samsung Galaxy S21",
+      "os_version": "12",
+      "deviceOrientation": "landscape",
+      "real_mobile": "true"
+    },
+    "env5": {
+      "os_version": "14",
+      "device": "iPad Pro 12.9 2021",
+      "deviceOrientation": "landscape",
+      "real_mobile": "true"
+    },
+    "env6": {
+      "os": "Windows",
+      "os_version": "10",
+      "browser": "chrome",
+      "browser_version": "latest-1"
+    },
+    "env7": {
+      "os": "Windows",
+      "os_version": "10",
+      "browser": "chrome",
+      "browser_version": "latest-2"
+    },
+    "env8": {
+      "os": "Windows",
+      "os_version": "10",
+      "browser": "chrome",
+      "browser_version": "latest-3"
+    },
+    "env9": {
+      "os": "OS X",
+      "os_version": "Mojave",
+      "browser": "safari",
+      "browser_version": "12.1"
+    },
+    "env10": {
+      "os": "OS X",
+      "os_version": "Mojave",
+      "browser": "safari",
+      "browser_version": "12.1"
+    },
+    "env11": {
+      "os": "OS X",
+      "os_version": "Mojave",
+      "browser": "safari",
+      "browser_version": "12.1"
+    }
+  }
+}

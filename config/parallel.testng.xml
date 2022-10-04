@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel" thread-count="11" parallel="tests">
+    <test name="SingleTestEnv1">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="env1"/>
+        <classes>
+            <class name="com.browserstack.SingleTest"/>
+        </classes>
+    </test>
+
+    <test name="SingleTestEnv2">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="env2"/>
+        <classes>
+            <class name="com.browserstack.SingleTest"/>
+        </classes>
+    </test>
+
+    <test name="SingleTestEnv3">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="env3"/>
+        <classes>
+            <class name="com.browserstack.SingleTest"/>
+        </classes>
+    </test>
+
+    <test name="SingleTestEnv4">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="env4"/>
+        <classes>
+            <class name="com.browserstack.SingleTest"/>
+        </classes>
+    </test>
+
+    <test name="SingleTestEnv5">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="env5"/>
+        <classes>
+            <class name="com.browserstack.SingleTest"/>
+        </classes>
+    </test>
+    <test name="SingleTestEnv6">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="env6"/>
+        <classes>
+            <class name="com.browserstack.SingleTest"/>
+        </classes>
+    </test>
+
+    <test name="SingleTestEnv7">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="env7"/>
+        <classes>
+            <class name="com.browserstack.SingleTest"/>
+        </classes>
+    </test>
+
+    <test name="SingleTestEnv8">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="env8"/>
+        <classes>
+            <class name="com.browserstack.SingleTest"/>
+        </classes>
+    </test>
+
+    <test name="SingleTestEnv9">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="env9"/>
+        <classes>
+            <class name="com.browserstack.SingleTest"/>
+        </classes>
+    </test>
+    <test name="SingleTestEnv10">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="env10"/>
+        <classes>
+            <class name="com.browserstack.SingleTest"/>
+        </classes>
+    </test>
+
+    <test name="SingleTestEnv11">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="env11"/>
+        <classes>
+            <class name="com.browserstack.SingleTest"/>
+        </classes>
+    </test>
+</suite>
